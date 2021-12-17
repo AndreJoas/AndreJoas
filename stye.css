@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrant", sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-image: url('./Monochrome-Type-Simple-Background-Image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 35px;
+    background: linear-gradient(to top left, #030e4e, #802030);
+    margin: 0 auto;
+    width: 30%;
+    height: 500px;
+}
+
+.corpo h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.corpo h2::after {
+    content: '';
+    display: block;
+    margin: 10px auto;
+    border-bottom: 3px solid #3f3737;
+    width: 25%;
+}
+
+.corpo input {
+    display: block;
+    margin: 20px auto;
+    box-sizing: content-box;
+    border: 2px solid #1ce2f0;
+    border-radius: 25px;
+    width: 75%;
+    height: 40px;
+    padding: 2px 5px;
+    font-size: 16pt;
+    transition: .2s;
+    outline: none;
+    background-color: transparent;
+    text-shadow: 10px;
+}
+
+.corpo input[type="text"]:focus,
+.corpo input[type="password"]:focus {
+    background-color: #1ce2f0;
+}
+
+.corpo input[type="text"]::placeholder,
+.corpo input[type="password"]::placeholder {
+    font-size: 16pt;
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+.corpo input[type="submit"] {
+    background-color: transparent;
+    color: #1ce2f0;
+}
+
+.corpo input[type="submit"]:hover {
+    background-color: #1ce2f0;
+    color: #ffffff;
+    transition: 1s;
+}
+
+@media screen and (max-width: 900px) {
+    .corpo {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    copor {
+        width: 85%;
+    }
+}
