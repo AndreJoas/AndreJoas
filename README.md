@@ -10,7 +10,7 @@ e nao medirei esforços ate que alcance o que pretendo!😳😳
 Algumas informaçõs sobre mim:
 
 - 🔭 Atualmente não estou trabalhando😢 com Front-end.
-- 🤓🤓 Estou aprendendo CSS, HTML, JSCRIPT.
+- 🤓🤓 Estou aprendendo CSS, HTML, JavaSCRIPT.
 - 😁 Estou colaborando em alguns projetos na EJ da minha faculdade de Sistemas de Informação.😁😁🤓 
 - 🤔 Procuro ajudar futuramente quem necessitar de sites, portifólios, blogs, app para mobile e desktop.😎💖 
 - 💬 Pergunte-me sobre qualquer coisa.😳😳😳
